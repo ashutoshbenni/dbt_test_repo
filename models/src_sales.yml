@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: Source
+    database: ASSIGNMENT_DB
+    schema: public
+    tables:
+      - name: SALES_DATA

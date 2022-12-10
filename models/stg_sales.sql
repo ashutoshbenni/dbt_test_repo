@@ -1,0 +1,20 @@
+select
+    md5(invoice_id) as id,
+    invoice id,
+    branch,
+    city,
+    customer type,
+    gender,
+    product line,
+    unit price,
+    quantity,
+    tax 5 %,
+    total,
+    date,
+    time,
+    payment,
+    cogs,
+    gross margin percentage,
+    gross income,
+    rating
+from {{ source("Source", "SALES_DATA") }};
